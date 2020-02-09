@@ -12,6 +12,8 @@
   href: serialization.md
 - name: Migration
   href: migration.md
+- name: FAQ
+  href: faq.md
 - name: Extend
   href: extend/toc.yml
 - name: Guides
