@@ -1,4 +1,4 @@
-# FAQ
+# Frequently Asked Questions
 
 ### What is the relation between Save System and Save Game Pro?
 
