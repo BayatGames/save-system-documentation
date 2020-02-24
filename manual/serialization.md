@@ -61,6 +61,19 @@ void Start() {
 }
 ```
 
+## GameObject Serialization Handler
+
+The GameObject Serialization Handler component allows you to specify which children and components of a GameObject should be serialized, you can also prevent serialization of children and components at all.
+
+![GameObject Serialization Handler Component](../images/gameobject-serialization-handler-component.png)
+
+- **Serialize Children**: Enables serialization of the GameObject children.
+- **Serialize Components**: Enables serialization of the GameObject components.
+- **Serialize Excluded Children**: Inverts the serialization of the GameObject children using the **Excluded Children** list that means instead of excluding them, it will only serialize the children that are included in the list.
+- **Serialize Excluded Components**: Inverts the serialization of the GameObject components using the **Excluded Components** list that means instead of excluding them, it will only serialize the components that are included in the list.
+- **Excluded Children**: The list of excluded children, if the **Serialize Excluded Children** option is not set, it prevents the children in this list from being serialized, otherwise it'll only serialize the children included in this list.
+- **Excluded Components**: The list of excluded components, if the **Serialize Excluded Components** option is not set, it prevents the components in this list from being serialized, otherwise it'll only serialize the components included in this list.
+
 ## Attributes
 
 For more information about attributes, check out Json.NET official documentaiton.
